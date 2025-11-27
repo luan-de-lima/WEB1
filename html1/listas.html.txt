@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML</title>
+</head>
+<body>
+    <h1>Exemplos de Listas</h1>
+
+    <h2>Lista Não Ordenada (com bolinhas)</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Ovos</li>
+        <li>Arroz</li>
+    </ul>
+
+    <h2>Lista Ordenada (numerada)</h2>
+    <ol>
+        <li>Ligar o computador</li>
+        <li>Abrir o navegador</li>
+        <li>Estudar HTML</li>
+        <li>Fazer os exercícios</li>
+    </ol>
+
+    <h2>Lista de Definição</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criar páginas web</dd>
+        
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para web</dd>
+    </dl>
+</body>
+</html>

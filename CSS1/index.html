@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática CSS1 - Todos os Itens</title>
+
+    <!-- 1. CSS EXTERNO (arquivo style.css) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 2. CSS INTERNO (dentro do <head>) -->
+    <style>
+        h1 { color: darkgreen; font-family: Arial; text-align: center; }
+        .interno { background: lightyellow; padding: 20px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <!-- 3. CSS INLINE (direto na tag) -->
+    <h1 style="color: navy; margin: 30px 0; font-size: 2.8rem;">
+        Prática Completa de CSS - Todos os Tópicos
+    </h1>
+
+    <!-- Seção 1: 3 tipos de CSS -->
+    <section class="interno">
+        <h2>1. Inline × Interno × Externo</h2>
+        <p style="color: red; background: #ffebee; padding: 15px; border: 2px solid red;">
+            Este parágrafo usa estilo INLINE (maior prioridade)
+        </p>
+        <p>Este usa estilo INTERNO (definido na tag &lt;style&gt;)</p>
+        <p class="externo">Este usa estilo EXTERNO (vem do style.css)</p>
+    </section>
+
+    <!-- Seção 2: cores, fontes e tamanhos -->
+    <section style="margin: 40px 0;">
+        <h2>2. Títulos e parágrafos com cores e fontes diferentes</h2>
+        <h3 class="titulo-verde">Título verde com fonte grande (2.5rem)</h3>
+        <p class="paragrafo-azul">Parágrafo azul com fonte Georgia e tamanho 1.3em</p>
+    </section>
+
+    <!-- Seção 3: margin, padding, border -->
+    <section style="margin: 40px 0;">
+        <h2>3. Margin, Padding e Border</h2>
+        <div class="caixa1">Caixa com padding grande e borda rosa</div>
+        <br>
+        <div class="caixa2">Caixa com margin enorme e borda tracejada verde</div>
+    </section>
+
+    <!-- Seção 4: background -->
+    <section>
+        <h2>4. Background-color e background-image</h2>
+        <div class="bg-color">Seção com background-color amarelo</div>
+        <div class="bg-image">Seção com imagem de fundo (fixed)</div>
+    </section>
+
+    <!-- Seção 5: listas, tabelas e links -->
+    <section style="margin: 50px 0;">
+        <h2>5. Listas, tabelas e links estilizados</h2>
+        <ul class="lista-personalizada">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <table class="tabela">
+            <tr><th>Nome</th><th>Idade</th></tr>
+            <tr><td>Ana</td><td>22</td></tr>
+            <tr><td>Lucas</td><td>29</td></tr>
+        </table>
+
+        <p style="margin-top: 20px;">
+            <a href="#" class="link-verde">Link verde com hover</a> | 
+            <a href="#" class="link-vermelho">Link vermelho sem sublinhado</a>
+        </p>
+    </section>
+
+    <!-- Seção 6: display e visibility -->
+    <section style="background: #eee; padding: 30px; margin: 40px 0;">
+        <h2>6. Display e Visibility</h2>
+        <span class="inline">inline</span> <span class="inline">inline</span><br><br>
+        <div class="block">block (ocupa linha inteira)</div>
+        <div class="inline-block">inline-block</div>
+        <div class="inline-block">inline-block</div>
+        <div class="none">NÃO aparece (display: none)</div>
+        <div class="invisivel">Ocupa espaço mas está invisível (visibility: hidden)</div>
+    </section>
+
+    <!-- Seção 7: unidades de medida -->
+    <section style="margin: 50px 0;">
+        <h2>7. Todas as unidades de medida</h2>
+        <div class="unidades">
+            <div class="px">100px (fixo)</div>
+            <div class="porcento">50% do pai</div>
+            <div class="em">2em (relativo ao elemento)</div>
+            <div class="rem">3rem (relativo ao root)</div>
+            <div class="vw">50vw (metade da tela)</div>
+            <div class="vh">30vh (30% da altura da tela)</div>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CineCatálogo - O melhor do cinema em um só lugar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="menu" role="navigation" aria-label="Menu principal">
+    <a href="#destaque">Destaque</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#tabela">Lançamentos</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+
+  <header class="cabecalho" role="banner">
+    <h1>CineCatálogo</h1>
+    <h2>O melhor do cinema em um só lugar</h2>
+  </header>
+
+  <main role="main">
+    <section id="destaque" class="section destaque">
+      <div class="card">
+        <img 
+          src="images/img2.jpg" 
+          sizes="(max-width: 600px) 90vw, (max-width: 900px) 380px, 380px"
+          alt="Pôster do filme Oppenheimer - Retrato de J. Robert Oppenheimer, o pai da bomba atômica" 
+          id="img-destaque"
+          loading="eager"
+        >
+        <article class="info">
+          <h3>Oppenheimer</h3>
+          <p>Biografia dramática de J. Robert Oppenheimer e os dilemas morais por trás do projeto Manhattan. Dir.: Christopher Nolan.</p>
+          <ul class="generos">
+            <li>Drama</li>
+            <li>História</li>
+            <li>Biografia</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="catalogo" class="section catalogo">
+      <h2>Catálogo de Filmes</h2>
+      <div class="grade">
+        
+        <article class="card-mini">
+          <img 
+            src="images/img3.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Interestelar - Astronautas explorando o espaço em busca de novo lar para humanidade" 
+            loading="lazy"
+          >
+          <h4>Interestelar</h4>
+          <p>2014 • Ficção Científica — Viagem espacial e laços familiares.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img4.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Duna - Paul Atreides no deserto de Arrakis com um verme gigante ao fundo" 
+            loading="lazy"
+          >
+          <h4>Duna</h4>
+          <p>2021 • Ficção Científica — Política e aventura no deserto de Arrakis.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img5.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Clube da Luta - Brad Pitt e Edward Norton com expressões intensas" 
+            loading="lazy"
+          >
+          <h4>Clube da Luta</h4>
+          <p>1999 • Drama — Subversão, identidade e choque social.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img6.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Matrix - Keanu Reeves como Neo evitando balas em câmera lenta" 
+            loading="lazy"
+          >
+          <h4>Matrix</h4>
+          <p>1999 • Ação — Realidade virtual e revolução contra as máquinas.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img7.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Vingadores: Ultimato - Todos os heróis reunidos para batalha final" 
+            loading="lazy"
+          >
+          <h4>Vingadores: Ultimato</h4>
+          <p>2019 • Ação — Conclusão épica do universo heroico.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img8.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Parasita - Família coreana com os olhos vendados em tom sépia" 
+            loading="lazy"
+          >
+          <h4>Parasita</h4>
+          <p>2019 • Suspense — Crítica social com reviravoltas afiadas.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img9.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Coringa - Joaquin Phoenix maquiado como palhaço com expressão perturbada" 
+            loading="lazy"
+          >
+          <h4>Coringa</h4>
+          <p>2019 • Drama — Origem sombria de um dos maiores vilões.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img10.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme O Rei Leão - Simba filhote sendo levantado sobre a Rocha do Rei" 
+            loading="lazy"
+          >
+          <h4>O Rei Leão</h4>
+          <p>1994 • Animação — Saga familiar de coragem e legado.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img11.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Batman: O Cavaleiro das Trevas - Christian Bale como Batman em frente a explosão" 
+            loading="lazy"
+          >
+          <h4>Batman: O Cavaleiro das Trevas</h4>
+          <p>2008 • Ação — Confronto moral entre herói e caos.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img12.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Pulp Fiction - John Travolta e Samuel L. Jackson com armas na cena do dinheiro" 
+            loading="lazy"
+          >
+          <h4>Pulp Fiction</h4>
+          <p>1994 • Crime — Narrativa não linear com humor negro.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img13.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme A Origem - Leonardo DiCaprio em cidade dobrada com arquitetura impossível" 
+            loading="lazy"
+          >
+          <h4>A Origem</h4>
+          <p>2010 • Ficção Científica — Roubos dentro de sonhos e realidades.</p>
+        </article>
+
+        <article class="card-mini">
+          <img 
+            src="images/img14.jpg" 
+            sizes="(max-width: 600px) 90vw, 210px"
+            alt="Pôster do filme Titanic - Leonardo DiCaprio e Kate Winslet no convés do navio" 
+            loading="lazy"
+          >
+          <h4>Titanic</h4>
+          <p>1997 • Romance — Amor em meio à tragédia do navio.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="tabela" class="section" aria-labelledby="tabela-titulo">
+      <h2 id="tabela-titulo" class="visually-hidden">Tabela de Lançamentos</h2>
+      <div class="table-container">
+        <table>
+          <caption class="visually-hidden">Tabela com informações sobre filmes recentes e seus status</caption>
+          <thead>
+            <tr>
+              <th scope="col">Filme</th>
+              <th scope="col">Ano</th>
+              <th scope="col">Nota</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Duna: Parte 2</td>
+              <td>2024</td>
+              <td>8.9</td>
+              <td>Lançado</td>
+            </tr>
+            <tr>
+              <td>Oppenheimer</td>
+              <td>2023</td>
+              <td>8.6</td>
+              <td>7 Oscars</td>
+            </tr>
+            <tr>
+              <td>Deadpool &amp; Wolverine</td>
+              <td>2024</td>
+              <td>8.2</td>
+              <td>Lançado</td>
+            </tr>
+            <tr>
+              <td>Barbie</td>
+              <td>2023</td>
+              <td>7.0</td>
+              <td>Bilheteria</td>
+            </tr>
+            <tr>
+              <td>Top Gun: Maverick</td>
+              <td>2022</td>
+              <td>8.3</td>
+              <td>Oscar</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+      <h2>Sobre o CineCatálogo</h2>
+      <div class="sobre-content">
+        <img 
+          src="images/img15.jpg" 
+          sizes="(max-width: 600px) 160px, 160px"
+          alt="Foto de perfil do desenvolvedor do CineCatálogo" 
+          class="foto-perfil"
+          id="img-perfil"
+          loading="eager"
+        >
+        <div class="sobre-texto">
+          <p>
+            <br>Projeto prático de Desenvolvimento Web I — HTML e CSS<br>Desenvolvido por Luan de Lima Galvão Cunha
+          </p>
+          <div class="botoes">
+            <a href="https://www.instagram.com/luan.amud?igsh=N2UwemljaGpjdXpv" class="botao">Instagram</a>
+            <a href="https://github.com/luan-de-lima" class="botao">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
